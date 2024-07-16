@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imgs/SZA\ SOS\ BG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
