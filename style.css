@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,4 +9,76 @@ body {
     background-image: url(imgs/SZA\ SOS\ BG.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lyrics-bg {
+    width: 25vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    border: 3px solid #d9d9d9;
+}
+
+.lyrics h1 {
+    font-family: Poppins;
+    font-size: 3em;
+    font-weight: normal;
+    color: white;
+    margin-top: 16px;
+}
+
+.lyrics h2 {
+    font-family: Poppins;
+    font-weight: normal;
+    color: white;
+    margin: 8px 32px;
+}
+
+.lyrics p {
+    font-family: Poppins;
+    font-size: 0.5em;
+    line-height: 13px;
+    color: white;
+    margin: 8px 32px;
+}
+
+.player-bg {
+    width: 30vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    border: 3px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+}
+
+.play-media h1 {
+    font-family: Poppins;
+    font-size: 3em;
+    font-weight: normal;
+    color: white;
+    margin-top: 16px;
+}
+
+.sos-gif {
+    width: 60%;
+    margin: auto;
+}
+
+.song-name {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin: auto;
 }
